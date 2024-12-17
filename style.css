@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background: black;
+    color: white;
+}
+.lol {
+    display: flex;
+}
