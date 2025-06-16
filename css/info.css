@@ -99,3 +99,6 @@ figcaption {
 .socials li {
   list-style: none;
 }
+pre {
+  font-size: 10px;
+}

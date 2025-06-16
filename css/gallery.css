@@ -90,3 +90,6 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
+pre {
+  font-size: 10px;
+}
