@@ -8,65 +8,67 @@
 }
 body {
   font-family: txfont;
-  background-image: url(../images/12.gif);
+  background-image: url(../images/208.gif);
   color: white;
   height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px;
+}
+body.home,
+body.info,
+body.blogs,
+body.about {
+  background-color: black;
+  background: transparent;
 }
 a {
   color: white;
   text-decoration: none;
 }
 h1 {
-  padding: 20px;
-  display: flex;
   color: #cc241d;
-  justify-content: center;
 }
-.header {
-  padding: 8px;
-  margin: 8px;
+header {
+  margin-top: 4px;
+  margin-bottom: 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.navigation-btn {
-  display: flex;
-  width: 240px;
-  justify-content: center;
-}
-.navigation-btn li {
-  list-style: none;
-  padding: 0px 16px 8px 16px;
+.heading-gallery {
+  padding: 20px;
+  margin: 20px;
+  background: linear-gradient(to left top, blue, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-index {
-  border: 2px white;
   background: #000;
-  padding: 20px;
-  margin: 20px;
   display: flex;
   align-items: center;
 }
-.main-index li {
-  list-style: none;
-}
 .main-article {
-  padding: 20px;
-  margin: 20px;
+  display: flex;
+  width: 900px;
+  margin-right: 187px;
   font-size: 10px;
 }
+.main-gallery {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(119, 156, 189, 0.83);
+}
+
 hr {
   color: #463939;
 }
 p {
   font-size: 16px;
-}
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  margin: 20px;
 }
 pre {
   background: linear-gradient(to left top, blue, red);
@@ -75,9 +77,22 @@ pre {
 }
 main {
   display: flex;
-  padding: 20px;
-  margin: 20px;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.6);
 }
 pre {
   font-size: 10px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+figcaption {
+  color: #fff;
+  font: italic smaller sans-serif;
+  text-align: center;
+}
+.socials {
+  list-style: none;
 }

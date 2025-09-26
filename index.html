@@ -7,19 +7,9 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="header">
-      <h1>lostglory_'s Ramblings</h1>
-      <nav>
-        <ul class="navigation-btn">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <hr />
-    <div class="main">
-      <pre>
+    <div class="bg-opacity" style="background: rgba(0, 0, 0, 0.6)">
+      <header>
+        <pre>
       ...                     .x+=:.        s                      ..                                       
   .zf"` `"tu                 z`    ^%      :8                x .d88"                             ..         
  x88      '8N.        u.        .    k    .88                 5888R          u.      .u    .    @L          
@@ -35,30 +25,50 @@
                                                  .dWi   `88E                                          98"   
                                                  4888~  J8%                                         ./"     
                                                   ^"kkk*"`                                         ~`       
-      </pre>
-      <p style="font-size: 12px">
-        hi everyone this is my neocities site, made for album reviews and tech
-        related stay tuned :)
-      </p>
+      </pre
+        >
+      </header>
+      <main>
+        <div class="main-index">
+          <ul style="list-style: none">
+            <li>
+              <a href="html/index-detail.html" target="content-frame">home</a>
+            </li>
+            <li>
+              <a href="html/gallery.html" target="content-frame">gallery</a>
+            </li>
+            <li>
+              <a href="html/blogs.html" target="content-frame">blogs</a>
+            </li>
+            <li><a href="html/info.html" target="content-frame">info</a></li>
+          </ul>
+        </div>
+        <div class="main-article">
+          <iframe
+            name="content-frame"
+            src="html/index-detail.html"
+            frameborder="0"
+            style="width: 1366px; height: 400px; overflow-x: hidden"
+            scroll="disable"
+          ></iframe>
+        </div>
+        <img
+          src="images/1753764562695.png"
+          alt=""
+          style="width: 250px; height: 400px"
+        />
+      </main>
+      <footer>
+        <div class="counter">
+          <a href="https://www.hitwebcounter.com" target="_blank">
+            <img
+              src="https://hitwebcounter.com/counter/counter.php?page=20941045&style=0009&nbdigits=5&type=ip&initCount=0"
+              title="Unique Visitors"
+              alt="Visit counter For Websites"
+              border="0"
+          /></a>
+        </div>
+      </footer>
     </div>
-    <main>
-      <div class="main-index">
-        <ul>
-          <li>home</li>
-          <li><a href="html/gallery.html">gallery</a></li>
-          <li>art</li>
-          <li><a href="html/info.html">info</a></li>
-          <li>blogs</li>
-        </ul>
-      </div>
-      <div class="main-article">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore,
-        commodi. Beatae molestias totam eius? Fuga nostrum cum sequi ipsam odit!
-        Soluta, incidunt a placeat illum beatae quis odio ut nihil.
-        <article>hello world 1</article>
-        <article>hello world 2</article>
-        <article>hello world 3</article>
-      </div>
-    </main>
   </body>
 </html>
