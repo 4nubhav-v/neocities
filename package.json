@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "python -m http.server 8080 -d src"
+    "dev": "vite src",
+    "build": "vite build src",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/4nubhav-v/neocities.git"
   },
   "keywords": [],
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/4nubhav-v/neocities/issues"
   },
-  "homepage": "https://github.com/4nubhav-v/neocities#readme"
+  "homepage": "https://github.com/4nubhav-v/neocities#readme",
+  "devDependencies": {
+    "three": "^0.186.1",
+    "vite": "^8.3.3"
+  }
 }

@@ -1,20 +1,24 @@
 :root {
-  --bg-section: #012606;
-  --border-section: #29a624;
+  --bg-section: #000;
+  --border-section: #fff;
 }
 * {
   margin: 0;
   padding: 0;
 }
+#threeD {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
 body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url("assets/7nmnbh.png");
   box-sizing: border-box;
   color: white;
   font-size: 12px;
-  z-index: 1;
+  z-index: 2;
 
   #terminal {
     background: #000;
@@ -23,6 +27,7 @@ body {
     top: 0px;
     padding: 2px;
     margin: 1px;
+    z-index: 1;
   }
   main {
     display: flex;
@@ -65,6 +70,7 @@ body {
       margin: auto;
       display: grid;
       position: relative;
+      z-index: 2;
       grid-template-columns: repeat(12, minmax(0, 1fr));
 
       li {
@@ -123,6 +129,7 @@ body {
     padding: 8px;
     width: 80%;
     text-align: center;
+      z-index: 2;
     background: var(--bg-section);
     border: 1px solid var(--border-section);
   }
@@ -134,5 +141,5 @@ body {
   right: 120px;
   transform: rotate(35deg);
   top: 20px;
-  z-index: -1;
+  z-index: 1;
 }
