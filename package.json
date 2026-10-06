@@ -1,0 +1,19 @@
+{
+  "name": "neocities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python -m http.server 8080 -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4nubhav-v/neocities.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/4nubhav-v/neocities/issues"
+  },
+  "homepage": "https://github.com/4nubhav-v/neocities#readme"
+}
