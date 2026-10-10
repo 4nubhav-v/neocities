@@ -156,9 +156,20 @@ body {
     top: 20px;
     z-index: 1;
   }
-  @media screen and (max-width: 412px) {
+  #postal {
+    height: 30%;
+    position: absolute;
+    top: 20px;
+    left: 3.3%;
+    transform: rotate(-35deg);
+    z-index: 1;
+  }
+  @media screen and (max-width: 678px) {
     #sayori {
       right: 10px;
+    }
+    #postal {
+      left: -20px;
     }
   }
 }
